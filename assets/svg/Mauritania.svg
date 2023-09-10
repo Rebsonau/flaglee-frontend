@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #008050;
+      }
+
+      .cls-3 {
+        fill: #f6c225;
+      }
+
+      .cls-4 {
+        fill: #d5203f;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Mauritania">
+    <g>
+      <rect class="cls-2" x="10" y="59.75" width="500" height="200.43"/>
+      <rect class="cls-4" x="10" y="10" width="500" height="49.75"/>
+      <rect class="cls-4" x="10" y="260.18" width="500" height="49.82"/>
+      <path class="cls-3" d="m353.78,109.36c-.28,51.53-42.15,93.25-93.75,93.25s-93.46-41.72-93.75-93.25c-2.06,7.82-3.13,16.06-3.13,24.52,0,53.52,43.35,96.87,96.87,96.87s96.87-43.35,96.87-96.87c0-8.53-1.07-16.7-3.13-24.52Z"/>
+      <polygon class="cls-3" points="238 139.21 260.04 123.15 282.07 139.21 273.68 113.27 295.71 97.28 268.42 97.28 260.04 71.34 251.65 97.28 224.36 97.28 246.39 113.27 238 139.21"/>
+    </g>
+  </g>
+</svg>

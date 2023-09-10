@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #002868;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #bf0a30;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Liberia">
+    <g>
+      <rect class="cls-4" x="10" y="10" width="500" height="27.43"/>
+      <rect class="cls-3" x="10" y="37.25" width="500" height="27.43"/>
+      <rect class="cls-4" x="10" y="64.5" width="500" height="27.43"/>
+      <rect class="cls-3" x="10" y="91.75" width="500" height="27.43"/>
+      <rect class="cls-4" x="10" y="118.99" width="500" height="27.43"/>
+      <rect class="cls-3" x="10" y="146.24" width="500" height="27.43"/>
+      <rect class="cls-4" x="10" y="173.49" width="500" height="27.43"/>
+      <rect class="cls-3" x="10" y="200.83" width="500" height="27.43"/>
+      <rect class="cls-4" x="10" y="228.08" width="500" height="27.43"/>
+      <rect class="cls-3" x="10" y="255.33" width="500" height="27.43"/>
+      <rect class="cls-4" x="10" y="282.57" width="500" height="27.43"/>
+      <rect id="rect8" class="cls-2" x="10" y="10" width="140.59" height="136.6"/>
+      <polygon class="cls-3" points="95.65 83.14 120.41 65.65 89.79 65.65 80.3 37.34 70.89 65.65 40.18 65.65 65.03 83.14 55.53 111.45 80.3 93.96 105.06 111.45 95.65 83.14"/>
+    </g>
+  </g>
+</svg>

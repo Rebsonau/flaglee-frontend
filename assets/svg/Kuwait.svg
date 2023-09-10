@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #ce1126;
+      }
+
+      .cls-5 {
+        fill: #007a3d;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Kuwait">
+    <g>
+      <polygon class="cls-5" points="10 10.09 156.67 110.03 510 110.03 510 10.09 10 10.09"/>
+      <polygon class="cls-3" points="156.67 110.03 156.67 210.06 510 210.06 510 109.99 156.67 110.03"/>
+      <polygon class="cls-4" points="510 310 510 210.01 156.67 210.06 10 310 510 310"/>
+      <polygon class="cls-2" points="156.67 110.03 156.67 210.06 156.67 210.06 10 310 10 310 10 10 156.67 110.03"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #156fff;
+      }
+
+      .cls-3 {
+        fill: #0fb551;
+      }
+
+      .cls-4 {
+        fill: #000100;
+      }
+
+      .cls-5 {
+        fill: #fad109;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Tanzania">
+    <g>
+      <polygon class="cls-2" points="510 310 510 41.75 63.01 310 510 310"/>
+      <polygon class="cls-4" points="510 10 474.63 10 130.29 216.66 10 288.83 10 310 45.37 310 389.71 103.34 510 31.17 510 10"/>
+      <polygon class="cls-3" points="10 10 10 85.56 10.16 85.56 10.16 234.72 10 234.72 10 278.25 456.99 10 10 10"/>
+      <polygon class="cls-5" points="130.29 216.66 474.63 10 456.99 10 10 278.25 10 288.83 10 288.83 10 288.83 130.29 216.66"/>
+      <polygon class="cls-5" points="510 31.17 510 31.17 389.71 103.34 45.37 310 63.01 310 510 41.75 510 31.17"/>
+      <path class="cls-5" d="m510,31.17l-120.29,72.18,120.29-72.18Z"/>
+    </g>
+  </g>
+</svg>

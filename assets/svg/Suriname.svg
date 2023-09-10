@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #ecc81d;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #b40a2d;
+      }
+
+      .cls-5 {
+        fill: #377e3f;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Suriname">
+    <g>
+      <rect class="cls-5" x="10" y="250" width="500" height="60"/>
+      <rect class="cls-5" x="10" y="10" width="500" height="60"/>
+      <rect class="cls-3" x="10" y="70" width="500" height="30"/>
+      <rect class="cls-3" x="10" y="220" width="500" height="30"/>
+      <rect class="cls-4" x="10" y="100" width="500" height="120"/>
+    </g>
+    <polygon class="cls-2" points="281.85 172.82 317.1 147.18 273.53 147.18 260.03 105.73 246.53 147.18 202.97 147.18 238.22 172.82 224.78 214.27 260.03 188.64 295.28 214.27 281.85 172.82"/>
+  </g>
+</svg>

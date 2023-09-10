@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #d21034;
+      }
+
+      .cls-4 {
+        fill: #007e3a;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Maldives">
+    <g>
+      <path class="cls-3" d="m10,10v300h500V10H10Zm416.68,225H93.4V85h333.28v150Z"/>
+      <rect class="cls-4" x="93.4" y="85" width="333.28" height="150"/>
+    </g>
+    <path class="cls-2" d="m288.19,209.12c-3.06.57-6.18.85-9.38.85-27.58,0-49.98-22.39-49.98-49.98s22.39-50.05,49.98-50.05c3.2,0,6.33.28,9.38.92-23.1,4.41-40.66,24.67-40.66,49.12,0,24.38,17.49,44.72,40.66,49.12Z"/>
+  </g>
+</svg>

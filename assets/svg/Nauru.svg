@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #002b7f;
+      }
+
+      .cls-4 {
+        fill: #ffc61e;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Nauru">
+    <g>
+      <rect class="cls-3" x="10" y="172.48" width="500" height="137.52"/>
+      <rect class="cls-3" x="10" y="10" width="500" height="137.52"/>
+      <rect class="cls-4" x="10" y="147.52" width="500" height="25.05"/>
+    </g>
+    <path class="cls-2" d="m135.06,272.07l-6.45-25.61-18.35,18.98,7.27-25.34-25.34,7.27,18.98-18.35-25.61-6.45,25.61-6.45-18.98-18.35,25.34,7.27-7.27-25.34,18.35,18.98,6.45-25.61,6.45,25.61,18.35-18.98-7.27,25.34,25.34-7.27-18.98,18.35,25.61,6.45-25.61,6.45,18.98,18.35-25.34-7.27,7.27,25.34-18.35-18.98-6.45,25.61Z"/>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #007a5e;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #a3ab78;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #ce1126;
+      }
+
+      .cls-5 {
+        fill: #fcd116;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-2" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Cameroon">
+    <g>
+      <rect class="cls-3" x="176.64" y="10" width=".07" height="300"/>
+      <rect class="cls-1" x="10" y="10" width="166.64" height="300"/>
+      <path class="cls-4" d="m176.72,10v300h166.64V10h-166.64Zm109.46,185.79l-26.13-18.87-26.13,18.87,9.98-30.61-26.13-18.87v-.07h32.3l9.98-30.61,9.98,30.61h32.3v.07l-26.13,18.87,9.98,30.61Z"/>
+      <rect class="cls-5" x="343.36" y="10" width="166.64" height="300"/>
+      <polygon class="cls-5" points="302.32 146.24 270.02 146.24 260.04 115.62 250.05 146.24 217.75 146.24 217.75 146.31 243.89 165.18 233.9 195.79 260.04 176.92 286.17 195.79 276.19 165.18 302.32 146.31 302.32 146.24"/>
+    </g>
+  </g>
+</svg>

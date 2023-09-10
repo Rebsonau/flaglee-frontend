@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #009e49;
+      }
+
+      .cls-4 {
+        fill: #ce1126;
+      }
+
+      .cls-5 {
+        fill: #fcd116;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Guinea-Bissau">
+    <g>
+      <rect class="cls-5" x="205.52" y="10" width="304.48" height="150"/>
+      <rect class="cls-2" x="205.52" y="160" width="304.48" height="150"/>
+      <path class="cls-4" d="m10,10v300h195.52V10H10Zm126.52,190.5l-28.76-21.33-28.76,21.33,10.93-34.59-7.97-5.91-20.79-15.41h35.48l10.93-34.59,10.93,34.59h35.48l-20.52,15.41-7.97,5.91,11.02,34.59Z"/>
+      <polygon class="cls-3" points="125.5 165.91 136.52 200.5 107.76 179.09 79 200.5 90.02 165.91 82.04 160 61.25 144.59 96.83 144.59 107.76 110 118.69 144.59 154.27 144.59 133.48 160 125.5 165.91"/>
+    </g>
+  </g>
+</svg>

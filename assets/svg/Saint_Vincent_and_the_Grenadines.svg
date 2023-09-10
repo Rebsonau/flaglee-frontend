@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #009e60;
+      }
+
+      .cls-3 {
+        fill: #0072c6;
+      }
+
+      .cls-4 {
+        fill: #fcd116;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Saint_Vincent_and_the_Grenadines" data-name="Saint Vincent and the Grenadines">
+    <g>
+      <rect class="cls-3" x="10" y="10" width="124.98" height="300"/>
+      <path class="cls-4" d="m135.06,10v299.93h250.04V10h-250.04Zm62.45,149.97l27.75-50.01,27.75,50.01-27.75,50.01-27.75-50.01Zm62.53,112.47l-27.75-50.01,27.75-50.01,27.75,50.01-27.75,50.01Zm34.7-62.46l-27.75-50.01,27.75-50.01,27.75,50.01-27.75,50.01Z"/>
+      <rect class="cls-2" x="385.02" y="10" width="124.98" height="300"/>
+      <polygon class="cls-2" points="232.29 222.5 260.04 272.44 287.79 222.5 260.04 172.49 232.29 222.5"/>
+      <polygon class="cls-2" points="225.33 109.95 197.51 159.97 225.33 209.98 253.08 159.97 225.33 109.95"/>
+      <polygon class="cls-2" points="266.99 159.97 294.74 209.98 322.57 159.97 294.74 109.95 266.99 159.97"/>
+    </g>
+  </g>
+</svg>

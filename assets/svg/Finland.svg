@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #003580;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Finland">
+    <g>
+      <rect class="cls-2" x="146.58" y="10" width=".08" height="107.88"/>
+      <polygon class="cls-2" points="146.58 202.12 146.58 309.92 10 309.92 10 310 146.66 310 146.66 202.12 146.58 202.12"/>
+      <rect class="cls-2" x="231.68" y="309.92" width="278.32" height=".08"/>
+      <rect class="cls-3" x="10" y="202.12" width="136.58" height="107.8"/>
+      <rect class="cls-3" x="10" y="10" width="136.58" height="107.88"/>
+      <rect class="cls-3" x="231.68" y="202.12" width="278.32" height="107.8"/>
+      <rect class="cls-3" x="231.68" y="10" width="278.32" height="107.88"/>
+      <polygon class="cls-4" points="231.68 202.12 510 202.12 510 117.88 231.68 117.88 231.68 10 146.66 10 146.66 117.88 146.58 117.88 10 117.88 10 202.12 146.58 202.12 146.66 202.12 146.66 310 231.68 310 231.68 309.92 231.68 202.12"/>
+    </g>
+  </g>
+</svg>

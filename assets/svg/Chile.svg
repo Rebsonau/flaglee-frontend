@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #0039a6;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #d52b1e;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Chile">
+    <g>
+      <polygon class="cls-4" points="10.07 160 10 310 510 310 510 160 10.07 160"/>
+      <polygon class="cls-3" points="160 10 160 160 510 160 510 10 160 10"/>
+      <path id="path8" class="cls-2" d="m160,160H10V10h150v150Z"/>
+      <polygon class="cls-3" points="107.37 115.32 98.96 89.43 121.04 73.4 121.04 73.4 121.04 73.4 121.04 73.4 121.04 73.4 93.71 73.4 85.3 47.52 85.3 47.52 85.3 47.52 85.3 47.52 85.3 47.52 76.82 73.4 49.49 73.4 49.49 73.4 49.49 73.4 49.49 73.4 49.49 73.4 71.56 89.43 63.15 115.32 63.15 115.32 63.15 115.32 63.15 115.32 63.15 115.32 85.3 99.29 107.37 115.32 107.37 115.32 107.37 115.32 107.37 115.32"/>
+    </g>
+  </g>
+</svg>

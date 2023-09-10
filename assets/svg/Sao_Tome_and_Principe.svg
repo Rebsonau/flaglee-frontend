@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #d21034;
+      }
+
+      .cls-4 {
+        fill: #12ad2b;
+      }
+
+      .cls-5 {
+        fill: #ffce00;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Sao_Tome_and_Principe" data-name="Sao Tome and Principe">
+    <g>
+      <polygon class="cls-4" points="10 310 510 310 510 224.26 81.45 224.26 10 310"/>
+      <polygon class="cls-4" points="510 10 510 95.74 81.45 95.74 10 10 510 10"/>
+      <polygon class="cls-5" points="81.45 95.74 135 160 81.45 224.26 510 224.26 510 95.74 81.45 95.74"/>
+      <polygon class="cls-3" points="135 160 81.45 224.26 10 310 10 10 81.45 95.74 135 160"/>
+    </g>
+    <g>
+      <polygon class="cls-2" points="270.3 146.11 260 114.21 249.7 146.11 216.2 146.11 243.3 165.71 232.9 197.61 260 177.91 287.1 197.61 276.7 165.71 303.8 146.11 270.3 146.11"/>
+      <polygon class="cls-2" points="428.8 146.11 395.3 146.11 385 114.21 374.6 146.11 341.2 146.11 368.2 165.71 357.9 197.61 385 177.91 412.1 197.61 401.7 165.71 428.8 146.11"/>
+    </g>
+  </g>
+</svg>

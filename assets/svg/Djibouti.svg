@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #d7141a;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #12ad2b;
+      }
+
+      .cls-5 {
+        fill: #6ab2e7;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Djibouti">
+    <g>
+      <polygon class="cls-5" points="10 10 140.33 85 270.59 160 510 160 510 10 10 10"/>
+      <polygon class="cls-4" points="140.26 235 10 310 510 310 510 309.93 510 160 270.59 160 140.26 235"/>
+      <path class="cls-3" d="m140.26,235l130.33-75-130.26-75L10,10v300l130.26-75Zm-70.1-83.93h30.21l9.33-28.54,9.33,28.67h30.21l-24.44,17.73,9.33,28.67-24.44-17.73-24.44,17.59,9.33-28.67-24.44-17.73Z"/>
+      <polygon class="cls-2" points="85.27 197.47 109.71 179.87 134.15 197.6 124.82 168.93 149.26 151.2 119.04 151.2 109.71 122.53 100.38 151.07 70.16 151.07 94.6 168.8 85.27 197.47"/>
+    </g>
+  </g>
+</svg>

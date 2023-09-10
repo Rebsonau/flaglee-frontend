@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #003082;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #d21034;
+      }
+
+      .cls-5 {
+        fill: #ffce00;
+      }
+
+      .cls-6 {
+        fill: #289728;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Central_African_Republic" data-name="Central African Republic">
+    <g>
+      <rect class="cls-5" x="301.68" y="235" width="208.32" height="75"/>
+      <rect class="cls-5" x="10" y="235" width="208.32" height="75"/>
+      <rect class="cls-6" x="10" y="160" width="208.32" height="75"/>
+      <rect class="cls-6" x="301.68" y="160" width="208.32" height="75"/>
+      <rect class="cls-3" x="301.68" y="85" width="208.32" height="75"/>
+      <rect class="cls-3" x="10" y="85" width="208.32" height="75"/>
+      <rect class="cls-2" x="10" y="10" width="208.32" height="75"/>
+      <rect class="cls-2" x="301.68" y="10" width="208.32" height="75"/>
+      <rect class="cls-4" x="218.32" y="10" width="83.28" height="300"/>
+    </g>
+    <polygon class="cls-5" points="105.7 54.69 125.57 40.31 101.02 40.31 93.36 16.98 93.36 16.98 85.76 40.31 61.15 40.31 81.02 54.69 73.42 78.02 93.36 63.57 113.3 78.02 105.7 54.69"/>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #c60c30;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Denmark">
+    <g>
+      <polygon class="cls-3" points="229.51 10 180.71 10 180.71 135.7 10 135.7 10 184.3 180.71 184.3 180.71 310 229.51 310 229.51 184.3 510 184.3 510 135.7 229.51 135.7 229.51 10"/>
+      <rect class="cls-2" x="10" y="184.3" width="170.71" height="125.7"/>
+      <rect class="cls-2" x="229.51" y="184.3" width="280.49" height="125.7"/>
+      <rect class="cls-2" x="10" y="10" width="170.71" height="125.7"/>
+      <rect class="cls-2" x="229.51" y="10" width="280.49" height="125.7"/>
+    </g>
+  </g>
+</svg>

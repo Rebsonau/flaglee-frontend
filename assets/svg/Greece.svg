@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #0d5eaf;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Greece">
+    <g>
+      <rect class="cls-3" x="10" y="10" width="500" height="300"/>
+      <path class="cls-2" d="m510,276.67H10v-33.33h500v33.33Zm0-66.67H10v-33.33h66.67v-66.67H10v-33.33h66.67V10h33.33v66.67h66.67v33.33h333.33v33.33H176.67v-33.33h-66.67v66.67h400v33.33Zm0-133.33H176.67v-33.33h333.33v33.33Z"/>
+    </g>
+  </g>
+</svg>

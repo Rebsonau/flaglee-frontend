@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #006b3f;
+      }
+
+      .cls-4 {
+        fill: #ce1126;
+      }
+
+      .cls-5 {
+        fill: #fcd116;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Ghana">
+    <g>
+      <polygon class="cls-3" points="10 210.02 10 310 510 310 510 210.02 296.09 210.02 10 210.02"/>
+      <g>
+        <polygon class="cls-5" points="260 109.98 272.42 148.2 312.77 148.2 280.17 171.8 292.59 210.02 510 210.02 510 109.98 260 109.98"/>
+        <polygon class="cls-5" points="227.41 210.02 239.83 171.8 207.23 148.2 247.58 148.2 260 109.98 10 109.98 10 210.02 292.59 210.02 260 186.42 227.41 210.02"/>
+      </g>
+      <polygon class="cls-4" points="10 10 10 109.98 260 109.98 510 109.98 510 10 10 10"/>
+      <polygon class="cls-2" points="207.23 148.2 239.83 171.8 227.41 210.02 260 186.42 292.59 210.02 280.17 171.8 312.77 148.2 272.42 148.2 260 109.98 247.58 148.2 207.23 148.2"/>
+    </g>
+  </g>
+</svg>

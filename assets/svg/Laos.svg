@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #002868;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #ce1126;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Laos">
+    <g>
+      <rect class="cls-4" x="10" y="10" width="500" height="75"/>
+      <rect class="cls-4" x="10" y="235" width="500" height="75"/>
+      <rect class="cls-2" x="10" y="85" width="500" height="150"/>
+      <ellipse class="cls-3" cx="260.03" cy="160" rx="60.16" ry="59.96"/>
+    </g>
+  </g>
+</svg>

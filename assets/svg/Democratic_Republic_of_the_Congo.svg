@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #f7d618;
+      }
+
+      .cls-3 {
+        fill: #007fff;
+      }
+
+      .cls-4 {
+        fill: #ce1021;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Congo_DR" data-name="Congo, DR">
+    <g>
+      <polygon class="cls-3" points="509.99 84.99 41.25 309.99 10.02 309.99 10.01 309.99 10.01 309.99 10.01 309.99 10.01 234.99 478.75 10 10 10 10 310 510 310 510 70 509.99 70 509.99 84.99"/>
+      <polygon class="cls-2" points="41.25 309.99 509.99 84.99 509.99 70 10.02 309.99 41.25 309.99"/>
+      <polygon class="cls-2" points="10.01 309.99 10.01 309.99 10.01 250 509.99 10 509.99 10 478.75 10 10.01 234.99 10.01 309.99"/>
+      <polygon class="cls-4" points="10.01 309.99 10.02 309.99 509.99 70 509.99 10 10.01 250 10.01 309.99"/>
+    </g>
+    <path id="path4151" class="cls-2" d="m39.18,76.2h47.4l14.67-47.4,14.67,47.4h47.4l-38.36,29.34,14.67,47.4-38.37-29.34-38.37,29.34,14.67-47.4-38.38-29.34Z"/>
+  </g>
+</svg>

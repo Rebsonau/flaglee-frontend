@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #003897;
+      }
+
+      .cls-4 {
+        fill: #d72828;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Iceland">
+    <g>
+      <g>
+        <rect class="cls-3" x="10" y="193.31" width="126.41" height="116.69"/>
+        <rect class="cls-3" x="10" y="10" width="126.41" height="116.69"/>
+        <rect class="cls-3" x="208.62" y="193.31" width="301.38" height="116.69"/>
+        <rect class="cls-3" x="208.62" y="10" width="301.38" height="116.69"/>
+      </g>
+      <g>
+        <polygon class="cls-2" points="136.41 126.69 10 126.69 10 143.31 136.41 143.31 154.48 143.31 154.48 126.69 154.48 10 136.41 10 136.41 126.69"/>
+        <polygon class="cls-2" points="190.55 176.69 190.55 193.31 190.55 310 208.62 310 208.62 193.31 510 193.31 510 176.69 208.62 176.69 190.55 176.69"/>
+        <polygon class="cls-2" points="10 176.69 10 193.31 136.41 193.31 136.41 310 154.48 310 154.48 193.31 154.48 176.69 136.41 176.69 10 176.69"/>
+        <polygon class="cls-2" points="208.62 126.69 208.62 10 190.55 10 190.55 126.69 190.55 143.31 208.62 143.31 510 143.31 510 126.69 208.62 126.69"/>
+      </g>
+      <polygon class="cls-4" points="190.55 143.31 190.55 10 154.48 10 154.48 143.31 10 143.31 10 176.69 154.48 176.69 154.48 310 190.55 310 190.55 176.69 510 176.69 510 143.31 190.55 143.31"/>
+    </g>
+  </g>
+</svg>

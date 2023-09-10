@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #093;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: red;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill: #fc0;
+      }
+
+      .cls-7 {
+        fill: #00c;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="South_Africa" data-name="South Africa">
+    <g>
+      <path id="path581" class="cls-4" d="m10.01,248.9V71.13l132.32,88.83S10.01,248.9,10.01,248.9Z"/>
+      <path id="path597" class="cls-7" d="m100.29,310l148.54-100.02h261.18v100.02H100.29Z"/>
+      <polygon class="cls-3" points="510 10 510 110 248.83 110 100.29 10 510 10"/>
+      <path id="path599" class="cls-6" d="m10.01,47.5v23.63l132.32,88.83L10.01,248.9v23.62l166.65-112.56L10.01,47.5h0Z"/>
+      <path id="path600" class="cls-2" d="m10.01,47.5V10h55.6l176.53,119.45h267.86v61.09H242.14l-176.54,119.47H10v-37.48l166.65-112.56L10.01,47.5h0Z"/>
+      <g>
+        <polygon class="cls-5" points="248.82 109.99 100.29 10 65.6 10 65.6 10 242.14 129.45 510 129.45 510 109.99 248.82 109.99"/>
+        <polygon class="cls-5" points="65.6 310 100.29 310 248.82 209.98 510 209.98 510 190.53 242.14 190.53 65.6 310"/>
+      </g>
+    </g>
+  </g>
+</svg>

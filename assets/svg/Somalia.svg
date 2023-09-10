@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4189dd;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #a3ab78;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-2" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Somalia">
+    <g>
+      <rect class="cls-1" x="10" y="10" width="500" height="300"/>
+      <polygon class="cls-3" points="328.76 137.67 276.22 137.67 260.03 87.79 243.85 137.67 191.31 137.67 233.8 168.51 217.55 218.47 260.03 187.56 302.52 218.47 286.27 168.51 328.76 137.67"/>
+    </g>
+  </g>
+</svg>

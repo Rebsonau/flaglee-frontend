@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #00abc9;
+      }
+
+      .cls-4 {
+        fill: #fae042;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Bahamas">
+    <g>
+      <polygon class="cls-2" points="179.35 209.97 10 310 510 310 510 209.97 179.35 209.97"/>
+      <polygon class="cls-2" points="510 110.03 510 10 10 10 179.35 110.03 510 110.03"/>
+      <polygon class="cls-4" points="263.99 160 179.35 209.97 510 209.97 510 110.03 179.35 110.03 263.99 160"/>
+      <polygon class="cls-3" points="263.99 160 179.35 110.03 10 10 10 110.03 10 209.97 10 310 179.35 209.97 263.99 160"/>
+    </g>
+  </g>
+</svg>

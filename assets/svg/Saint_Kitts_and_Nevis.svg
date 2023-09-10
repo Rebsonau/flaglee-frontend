@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #fed215;
+      }
+
+      .cls-4 {
+        fill: #cd1127;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill: #019e49;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Saint_Kitts_and_Nevis" data-name="Saint Kitts and Nevis">
+    <g>
+      <polygon class="cls-6" points="396.36 10 10 241.86 10 10 396.36 10"/>
+      <polygon class="cls-4" points="510 78.14 510 310 123.64 310 510 78.14"/>
+      <polygon class="cls-3" points="434.84 10 10 264.93 10 241.86 396.36 10 434.84 10"/>
+      <polygon class="cls-3" points="510 55.07 510 78.14 123.64 310 85.16 310 510 55.07"/>
+      <polygon class="cls-2" points="510 10 510 55.07 85.16 310 10 310 10 264.93 434.84 10 510 10"/>
+    </g>
+    <polygon class="cls-5" points="183.06 236.65 162.6 234.88 154.64 253.79 149.99 233.79 129.53 232.02 147.1 221.41 142.44 201.48 157.95 214.88 175.52 204.27 167.55 223.18 183.06 236.65"/>
+    <polygon class="cls-5" points="376.2 119.14 355.74 117.37 347.78 136.28 343.13 116.28 322.67 114.58 340.24 103.97 335.59 83.97 351.09 97.44 368.66 86.83 360.69 105.74 376.2 119.14"/>
+  </g>
+</svg>

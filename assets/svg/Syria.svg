@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #ce1126;
+      }
+
+      .cls-5 {
+        fill: #007a3d;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Syria">
+    <g>
+      <rect class="cls-2" x="10" y="209.98" width="500" height="100.02"/>
+      <rect class="cls-3" x="10" y="109.95" width="500" height="100.02"/>
+      <rect class="cls-4" x="10" y="10" width="500" height="100.02"/>
+      <polygon class="cls-5" points="181.86 163.83 200.93 149.92 177.32 149.92 170.05 127.46 162.73 149.92 139.11 149.92 158.25 163.83 150.92 186.23 170.05 172.38 189.12 186.23 181.86 163.83"/>
+      <polygon class="cls-5" points="361.82 163.83 380.96 149.92 357.34 149.92 350.01 127.46 342.75 149.92 319.14 149.92 338.21 163.83 330.95 186.23 350.01 172.38 369.15 186.23 361.82 163.83"/>
+    </g>
+  </g>
+</svg>

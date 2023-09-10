@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #ed2229;
+      }
+
+      .cls-4 {
+        fill: #07519f;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="North_Korea" data-name="North Korea">
+    <g>
+      <rect class="cls-4" x="10" y="260.09" width="500" height="49.91"/>
+      <rect class="cls-4" x="10" y="10" width="500" height="50"/>
+      <polygon class="cls-2" points="10 260 10 260.09 510 260.09 510 260 510 251.73 10 251.73 10 260"/>
+      <rect class="cls-2" x="10" y="60" width="500" height="8.27"/>
+      <polygon class="cls-3" points="10 68.27 10 68.36 10 251.73 510 251.73 510 68.36 510 68.27 10 68.27"/>
+    </g>
+    <g>
+      <path class="cls-2" d="m176.72,226.64c36.82,0,66.64-29.82,66.64-66.73s-29.82-66.64-66.64-66.64-66.73,29.82-66.73,66.64c0,36.91,29.91,66.73,66.73,66.73Zm-14.55-86.64l14.55-44.64,14.55,44.64h46.91l-38,27.55,14.55,44.64-38-27.55-38,27.55,14.55-44.64-38-27.55h46.91Z"/>
+      <polygon class="cls-3" points="138.72 212.27 176.72 184.64 214.63 212.27 200.18 167.64 238.18 140 191.18 140 176.72 95.36 162.18 140 115.27 140 153.27 167.64 138.72 212.27"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fdef42;
+      }
+
+      .cls-3 {
+        fill: #e31b23;
+      }
+
+      .cls-4 {
+        fill: #00853f;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Senegal">
+    <g>
+      <rect class="cls-4" x="10" y="10" width="166.64" height="300"/>
+      <rect class="cls-2" x="176.72" y="10" width="166.64" height="299.93"/>
+      <rect class="cls-3" x="343.36" y="10" width="166.64" height="300"/>
+    </g>
+    <polygon class="cls-4" points="271.25 144.5 260.03 109.98 248.82 144.5 212.48 144.5 241.86 165.84 230.65 200.43 260.03 179.08 289.42 200.43 278.21 165.84 307.59 144.5 271.25 144.5"/>
+  </g>
+</svg>

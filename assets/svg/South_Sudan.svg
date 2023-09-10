@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fefefe;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #a3ab78;
+      }
+
+      .cls-3 {
+        fill: #da252b;
+      }
+
+      .cls-4 {
+        fill: #098a44;
+      }
+
+      .cls-5 {
+        fill: #f7ec00;
+      }
+
+      .cls-6 {
+        fill: #242222;
+      }
+
+      .cls-7 {
+        fill: #294899;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-2" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="South_Sudan" data-name="South Sudan">
+    <g>
+      <polygon class="cls-6" points="510 96.98 510 10 10 10 139.54 96.98 510 96.98"/>
+      <polygon class="cls-3" points="232.33 159.28 170.33 201.31 510 201.31 510 114.33 165.38 114.33 232.33 159.28"/>
+      <polygon class="cls-4" points="144.73 218.67 10 310 510 310 510 218.67 144.73 218.67"/>
+      <polygon class="cls-1" points="165.38 114.33 510 114.33 510 96.98 139.54 96.98 165.38 114.33"/>
+      <polygon class="cls-1" points="144.73 218.67 510 218.67 510 201.31 170.33 201.31 144.73 218.67"/>
+      <path class="cls-7" d="m170.33,201.31l62-42.03-66.95-44.95-25.84-17.35L10,10v300l134.73-91.33,25.6-17.35Zm-78.25-32l-16.14,26.55-2.42-30.62-30.07-6.73,28.69-12.12-2.59-30.85,20.27,23.52,28.7-12.06-16.31,26.22,20.22,23.3-30.35-7.22Z"/>
+      <polygon class="cls-5" points="118.53 127 89.82 139.07 69.55 115.55 72.14 146.39 43.44 158.51 73.52 165.24 75.94 195.86 92.08 169.31 122.43 176.53 102.22 153.22 118.53 127"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #ce1126;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Bahrain">
+    <polygon class="cls-2" points="121.41 250.01 190.63 219.99 121.41 190.03 190.63 160 121.41 129.97 190.63 100.01 121.41 69.99 190.63 39.96 121.41 10 10 10 10 310 121.41 310 190.63 280.04 121.41 250.01"/>
+    <polygon class="cls-3" points="510 310 510 10 121.41 10 190.63 39.96 121.41 69.99 190.63 100.01 121.41 129.97 190.63 160 121.41 190.03 190.63 219.99 121.41 250.01 190.63 280.04 121.41 310 510 310"/>
+  </g>
+</svg>

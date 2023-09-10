@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: red;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="_300x300_Background" data-name="300x300 Background">
+    <rect class="cls-1" width="320" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="Switzerland">
+    <g>
+      <rect class="cls-2" x="10" y="10" width="300" height="300"/>
+      <polygon class="cls-3" points="253.81 131.89 188.15 131.89 188.15 66.22 131.92 66.22 131.92 131.89 66.26 131.89 66.26 188.11 131.92 188.11 131.92 253.78 188.15 253.78 188.15 188.11 253.81 188.11 253.81 131.89"/>
+    </g>
+  </g>
+</svg>

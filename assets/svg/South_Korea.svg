@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a3ab78;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #c60c30;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: #003478;
+      }
+    </style>
+  </defs>
+  <g id="_500x300_Background" data-name="500x300 Background">
+    <rect class="cls-1" width="520" height="320" rx="10" ry="10"/>
+  </g>
+  <g id="South_Korea" data-name="South Korea">
+    <g>
+      <rect class="cls-4" x="10" y="10" width="500" height="300"/>
+      <path class="cls-4" d="m218.44,222.36c-33.95-22.64-43.43-68.05-21.86-102.36.35-.57.64-1.06,1.06-1.63,22.99-34.45,69.54-43.79,103.98-20.8,33.95,22.64,43.43,68.05,21.86,102.36-.35.57-.64,1.06-1.06,1.63-22.99,34.45-69.54,43.79-103.98,20.8Z"/>
+      <path class="cls-2" d="m208.04,170.36c17.26,11.46,40.53,6.86,51.99-10.4,11.46-17.26,34.8-21.86,51.99-10.4,16.69,11.11,21.58,33.32,11.46,50.37,21.65-34.31,12.1-79.72-21.86-102.36-34.45-22.99-81-13.65-103.98,20.8-.35.57-.71,1.06-1.06,1.63-10.12,17.05-5.23,39.26,11.46,50.37Z"/>
+      <path class="cls-5" d="m196.58,120c.35-.57.64-1.06,1.06-1.63-.35.5-.71,1.06-1.06,1.63Z"/>
+      <path class="cls-5" d="m322.43,201.56c.35-.57.71-1.06,1.06-1.63-.35.57-.71,1.13-1.06,1.63Z"/>
+      <path class="cls-5" d="m312.03,149.57c-17.26-11.46-40.53-6.86-51.99,10.4-11.46,17.26-34.8,21.86-51.99,10.4-16.69-11.11-21.58-33.32-11.46-50.37-21.65,34.31-12.1,79.72,21.86,102.36,34.45,22.99,81,13.65,103.98-20.8.35-.57.71-1.06,1.06-1.63,10.12-17.05,5.23-39.26-11.46-50.37Z"/>
+      <g>
+        <rect class="cls-3" x="108.14" y="77.4" width="74.99" height="12.52" transform="translate(-4.75 158.43) rotate(-56.31)"/>
+        <rect class="cls-3" x="123.72" y="87.83" width="74.99" height="12.52" transform="translate(-6.5 176.04) rotate(-56.31)"/>
+        <rect class="cls-3" x="92.52" y="67.02" width="74.99" height="12.52" transform="translate(-3.08 140.82) rotate(-56.31)"/>
+        <rect class="cls-3" x="361.64" y="257.25" width="34.38" height="12.52" transform="translate(-50.56 432.56) rotate(-56.31)"/>
+        <rect class="cls-3" x="330.41" y="236.47" width="34.38" height="12.52" transform="translate(-47.19 397.3) rotate(-56.31)"/>
+        <rect class="cls-3" x="345.99" y="246.91" width="34.38" height="12.52" transform="translate(-48.93 414.91) rotate(-56.31)"/>
+        <rect class="cls-3" x="352.95" y="202.68" width="34.38" height="12.52" transform="translate(-9.02 401.02) rotate(-56.31)"/>
+        <rect class="cls-3" x="368.56" y="213.05" width="34.38" height="12.52" transform="translate(-10.7 418.64) rotate(-56.31)"/>
+        <rect class="cls-3" x="384.14" y="223.47" width="34.38" height="12.52" transform="translate(-12.43 436.24) rotate(-56.31)"/>
+        <rect class="cls-3" x="150.67" y="235.93" width="12.52" height="34.38" transform="translate(-114.05 129.55) rotate(-33.69)"/>
+        <rect class="cls-3" x="154.97" y="188.31" width="12.52" height="74.98" transform="translate(-98.17 127.36) rotate(-33.69)"/>
+        <rect class="cls-3" x="128.11" y="202.13" width="12.52" height="34.38" transform="translate(-99.09 111.36) rotate(-33.69)"/>
+        <polygon class="cls-3" points="136.95 245.77 133.49 240.54 133.49 240.54 114.46 211.96 104.06 218.89 145.65 281.28 156.05 274.35 136.95 245.77"/>
+        <rect class="cls-3" x="372.53" y="39.22" width="12.52" height="34.38" transform="translate(32.32 219.58) rotate(-33.69)"/>
+        <rect class="cls-3" x="395.06" y="73" width="12.52" height="34.38" transform="translate(17.38 237.77) rotate(-33.69)"/>
+        <rect class="cls-3" x="363.87" y="93.8" width="12.52" height="34.38" transform="translate(.6 223.96) rotate(-33.69)"/>
+        <rect class="cls-3" x="341.3" y="60" width="12.52" height="34.38" transform="translate(15.56 205.77) rotate(-33.69)"/>
+        <polygon class="cls-3" points="365.79 81.94 366.35 82.79 367.49 84.56 367.49 84.56 370.95 89.79 370.95 89.79 390.05 118.37 400.45 111.44 383.12 85.41 383.12 85.41 381.35 82.86 377.88 77.63 376.19 75.01 376.19 75.01 358.86 49.05 348.46 55.98 365.79 81.94"/>
+      </g>
+    </g>
+  </g>
+</svg>
