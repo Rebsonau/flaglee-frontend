@@ -8,15 +8,16 @@ import {
   Pressable,
 } from "react-native";
 
-import Japan from "./assets/svg/Japan.svg";
+import flags from "./components/flags.js";
 
 export default function App() {
+  const Flag = flags.norway
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.progress_container}>
         <View style={styles.progress_percentage} />
       </View>
-      <Japan style={{margin: 50}}width={300} height={180} />
+      <Flag style={{margin: 50}}width={300} height={180} />
       <TextInput style={styles.input} />
       <Pressable onPress={() => console.log("check")} style={styles.q_button}>
         <Text style={{ color: "white", fontSize: 20 }}>CHECK</Text>
