@@ -1,4 +1,4 @@
-const flag = {
+const flags = {
   afghanistan: "../assets/svg/Afghanistan.svg",
   albania: "../assets/svg/Albania.svg",
   algeria: "../assets/svg/Algeria.svg",
@@ -200,4 +200,4 @@ const flag = {
   zimbabwe: "../assets/svg/Zimbabwe.svg",
 };
 
-export default flag;
+export default flags

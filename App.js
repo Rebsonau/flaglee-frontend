@@ -1,5 +1,14 @@
 import { StatusBar } from "expo-status-bar";
-import { SafeAreaView, StyleSheet, Text, View, Image, TextInput, Pressable } from "react-native";
+import {
+  SafeAreaView,
+  StyleSheet,
+  Text,
+  View,
+  TextInput,
+  Pressable,
+} from "react-native";
+
+import Japan from "./assets/svg/Japan.svg";
 
 export default function App() {
   return (
@@ -7,15 +16,12 @@ export default function App() {
       <View style={styles.progress_container}>
         <View style={styles.progress_percentage} />
       </View>
-      {/* <Image
-        style={{ width: 300, height: 180 }}
-        source={require("./assets/Zimbabwe.png")}
-      /> */}
+      <Japan style={{margin: 50}}width={300} height={180} />
       <TextInput style={styles.input} />
-      <Pressable style={styles.q_button}>
+      <Pressable onPress={() => console.log("check")} style={styles.q_button}>
         <Text style={{ color: "white", fontSize: 20 }}>CHECK</Text>
       </Pressable>
-      <Pressable style={styles.q_button}>
+      <Pressable onPress={() => console.log("hint")} style={styles.q_button}>
         <Text style={{ color: "white", fontSize: 20 }}>HINT</Text>
       </Pressable>
       <StatusBar style="auto" />
@@ -30,26 +36,25 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   progress_container: {
-    width: 300,
+    width: 250,
     height: 12,
     borderRadius: 6,
     backgroundColor: "#818274",
-    alignItems: "start",
-    justifyContent: "start"
+    margin: 20,
   },
   progress_percentage: {
-    width: 30,
+    width: "10%",
     height: 12,
     borderRadius: 6,
-    backgroundColor: '#A3AB78',
+    backgroundColor: "#A3AB78",
     justifySelf: "start",
   },
   input: {
     height: 60,
     width: 300,
-    backgroundColor: '#0E3A42',
+    backgroundColor: "#0E3A42",
     borderRadius: 8,
-    margin: 35,
+    margin: 20,
   },
   q_button: {
     backgroundColor: "#216370",
@@ -59,7 +64,7 @@ const styles = StyleSheet.create({
     color: "white",
     height: 60,
     width: 300,
-    margin: 35,
+    margin: 20,
     alignItems: "center",
     justifyContent: "center",
   },
