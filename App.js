@@ -7,22 +7,201 @@ import {
   TextInput,
   Pressable,
 } from "react-native";
+import React, { useState } from "react";
 
-import flags from "./components/flags.js";
+import flags from "./components/flags";
+
+const countries = [
+  {
+    name: ["Kingdom of Norway", "Norway"],
+    continent: ["Europe"],
+    capital_city: "Oslo",
+    languages: ["Norwegian", "Sami", "Kven", "Romani", "Scandoromani"],
+    population: 5488984,
+    area: 385207,
+    currency: "Norwegian Krone (NOK)",
+    bordering: ["Sweden", "Finland", "Russia"],
+    flag: flags.norway,
+  },
+  {
+    name: ["Scotland"],
+    continent: ["Europe"],
+    capital_city: "Edinburgh",
+    languages: ["English", "Scots", "Scots Gaelic"],
+    population: 5480000,
+    area: 78772,
+    currency: "Pound Sterling (GBP)",
+    bordering: ["England"],
+    flag: flags.scotland,
+  },
+  {
+    name: ["Japan"],
+    continent: ["Asia"],
+    capital_city: "Tokyo",
+    languages: ["Japanese"],
+    population: 125416877,
+    area: 377945,
+    currency: "Japanese Yen (JPY)",
+    bordering: [],
+    flag: flags.japan,
+  },
+  {
+    name: ["Italian Republic", "Republic of Italy", "Italy"],
+    continent: ["Europe"],
+    capital_city: "Rome",
+    languages: ["Italian"],
+    population: 58853284,
+    area: 301338,
+    currency: "Euro (EUR)",
+    bordering: [
+      "France",
+      "Switzerland",
+      "Austria",
+      "Slovenia",
+      "San Marino",
+      "Holy See",
+    ],
+    flag: flags.italy,
+  },
+  {
+    name: ["Commonwealth of Australia ", "Australia"],
+    continent: ["Oceania"],
+    capital_city: "Canberra",
+    languages: ["English"],
+    population: 26723700,
+    area: 7692024,
+    currency: "Australian Dollar (AUD)",
+    bordering: [],
+    flag: flags.australia,
+  },
+];
 
 export default function App() {
-  const Flag = flags.norway
+  const [index, setIndex] = useState(0);
+  const [formData, setFormData] = useState({ textInputValue: '' });
+  const [hintIndex, setHintIndex] = useState(0);
+  const [hintText, setHintText] = useState('');
+
+  function handleInputChange(text) {
+    setFormData({ ...formData, textInputValue: text });
+  }
+
+  function handleGuess() {
+    const currentCountryIndex = index;
+
+    if (currentCountryIndex === null) {
+      console.log('All countries guessed!');
+      return;
+    }
+
+    const currentCountry = countries[currentCountryIndex];
+    console.log(currentCountry.name);
+    console.log(formData.textInputValue);
+
+    const isCorrect = currentCountry.name.some(
+      (name) => name.toLowerCase() === formData.textInputValue.toLowerCase()
+    );
+
+    if (isCorrect) {
+      console.log('Correct!');
+      handleCorrectAnswer();
+    } else {
+      console.log('Incorrect!');
+    }
+  }
+
+  function handleCorrectAnswer() {
+    setFormData({ textInputValue: '' }); // Clear the input
+    setHintText('');
+    setIndex((prevIndex) => (prevIndex + 1) % countries.length);
+    setHintIndex(0);
+  }
+
+  function handleHint() {
+    const currentCountry = countries[index];
+
+
+    // Capital City Hint
+    const capitalHint = `The capital city of this country is ${currentCountry.capital_city}.`;
+
+    // Continent Hint
+    const continent = currentCountry.continent;
+    let continentHint = `This country is located in `;
+
+    if (continent.length === 1) {
+      continentHint += `${continent[0]}.`;
+    } else {
+      continentHint += `${continent[0]} & ${continent[1]}.`;
+    }
+
+    // Poulation Hint
+    const populationHint = `The number of inhabitants in this country is approximately ${currentCountry.population.toLocaleString()}.`;
+
+    // Area Hint
+    const areaHint = `This country covers an area of approximately ${currentCountry.area.toLocaleString()} km².`;
+
+    // Language Hint
+    const languages = currentCountry.languages;
+    let languageHint = `This country's official `;
+
+    if (languages.length === 1) {
+      languageHint += `language is ${languages[0]}.`;
+    } else if (languages.length === 2) {
+      languageHint += `languages are ${languages[0] & languages[1]}.`;
+    } else {
+      const lastLanguage = languages.pop();
+      languageHint += `languages are ${languages.join(
+        ", "
+      )} & ${lastLanguage}.`;
+    }
+
+    // Currency Hint
+    const currencyHint = `The currency used here is ${currentCountry.currency}.`;
+
+    // Border Hint
+    const borders = currentCountry.bordering;
+    let borderHint = `This country shares `;
+
+    if (borders.length === 0) {
+      borderHint += `no borders.`;
+    } else if (borders.length === 1) {
+      borderHint += `a border with ${borders[0]}.`;
+    } else if (borders.length === 2) {
+      borderHint += `a border with & ${borders[0]} & ${borders[1]}.`;
+    } else {
+      const lastBorder = currentCountry.bordering.pop();
+      borderHint += `a border with ${borders.join(", ")} & ${lastBorder}.`;
+    }
+
+    // Randomly select a hint message
+    const hintMessages = [
+      continentHint,
+      capitalHint,
+      languageHint,
+      borderHint,
+      populationHint,
+      areaHint,
+      currencyHint,
+    ];
+
+    setHintText(hintMessages[hintIndex]);
+    setHintIndex((prevIndex) => (prevIndex + 1) % hintMessages.length);
+  }
+
+  const Flag = countries[index].flag;
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.progress_container}>
-        <View style={styles.progress_percentage} />
+        <View style={styles.progress_percentage}>
+          <View style={styles.progress_highlight} />
+        </View>
       </View>
-      <Flag style={{margin: 50}}width={300} height={180} />
-      <TextInput style={styles.input} />
-      <Pressable onPress={() => console.log("check")} style={styles.q_button}>
+      <Flag style={{ margin: 50 }} width={300} height={180} />
+      <TextInput value={formData.textInputValue} onChangeText={handleInputChange} style={styles.input} />
+      <Pressable onPress={handleGuess} style={styles.q_button}>
         <Text style={{ color: "white", fontSize: 20 }}>CHECK</Text>
       </Pressable>
-      <Pressable onPress={() => console.log("hint")} style={styles.q_button}>
+      <Pressable onPress={handleHint} style={styles.q_button}>
         <Text style={{ color: "white", fontSize: 20 }}>HINT</Text>
       </Pressable>
       <StatusBar style="auto" />
@@ -44,11 +223,18 @@ const styles = StyleSheet.create({
     margin: 20,
   },
   progress_percentage: {
-    width: "10%",
+    width: "50%",
     height: 12,
     borderRadius: 6,
     backgroundColor: "#A3AB78",
-    justifySelf: "start",
+  },
+  progress_highlight: {
+    height: 4,
+    borderRadius: 2,
+    backgroundColor: "#c7d192",
+    marginLeft: 6,
+    marginRight: 6,
+    marginTop: 2,
   },
   input: {
     height: 60,

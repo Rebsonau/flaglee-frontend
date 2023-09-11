@@ -151,6 +151,7 @@ import Saint_Vincent_and_the_Grenadines from "../assets/svg/Saint_Vincent_and_th
 import Samoa from "../assets/svg/Samoa.svg";
 import San_Marino from "../assets/svg/San_Marino.svg";
 import Sao_Tome_and_Principe from "../assets/svg/Sao_Tome_and_Principe.svg";
+import Scotland from "../assets/svg/Scotland.svg";
 import Saudi_Arabia from "../assets/svg/Saudi_Arabia.svg";
 import Senegal from "../assets/svg/Senegal.svg";
 import Serbia from "../assets/svg/Serbia.svg";
@@ -352,6 +353,7 @@ const flags = {
   san_marino: San_Marino,
   sao_tome_and_principe: Sao_Tome_and_Principe,
   saudi_arabia: Saudi_Arabia,
+  scotland: Scotland,
   senegal: Senegal,
   serbia: Serbia,
   seychelles: Seychelles,
