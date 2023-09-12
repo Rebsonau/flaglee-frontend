@@ -11,6 +11,7 @@ import {
 import React, { useState, useCallback } from "react";
 import { useFonts } from "expo-font";
 import * as SplashScreen from "expo-splash-screen";
+import * as Haptics from "expo-haptics";
 
 import flags from "./components/flags";
 
@@ -124,6 +125,9 @@ export default function App() {
     if (isCorrect) {
       console.log('Correct!');
       handleCorrectAnswer();
+      Haptics.notificationAsync(
+        Haptics.NotificationFeedbackType.Success
+      )
     } else {
       console.log('Incorrect!');
     }
