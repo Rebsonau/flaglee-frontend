@@ -125,8 +125,8 @@ export default function App() {
     if (isCorrect) {
       console.log('Correct!');
       handleCorrectAnswer();
-      Haptics.notificationAsync(
-        Haptics.NotificationFeedbackType.Success
+      Haptics.impactAsync(
+        Haptics.ImpactFeedbackStyle.Heavy
       )
     } else {
       console.log('Incorrect!');
