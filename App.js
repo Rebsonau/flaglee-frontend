@@ -7,7 +7,9 @@ import {
   TextInput,
   Pressable,
 } from "react-native";
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
+import { useFonts } from "expo-font";
+import * as SplashScreen from "expo-splash-screen";
 
 import flags from "./components/flags";
 
@@ -81,6 +83,22 @@ export default function App() {
   const [formData, setFormData] = useState({ textInputValue: '' });
   const [hintIndex, setHintIndex] = useState(0);
   const [hintText, setHintText] = useState('');
+
+  // Custom Font
+  const [fontsLoaded] = useFonts({
+    'Inria Sans': require('./assets/fonts/Inria Sans.ttf'),
+  });
+
+  const onLayoutRootView = useCallback(async () => {
+    if (fontsLoaded) {
+      await SplashScreen.hideAsync();
+    }
+  }, [fontsLoaded]);
+
+  if (!fontsLoaded) {
+    return null;
+  }
+
 
   function handleInputChange(text) {
     setFormData({ ...formData, textInputValue: text });
@@ -196,13 +214,14 @@ export default function App() {
           <View style={styles.progress_highlight} />
         </View>
       </View>
+      <Text style={{ fontSize: 24, color: "white", fontFamily: 'Inria Sans', }}>WHAT COUNTRY IS THIS?</Text>
       <Flag style={{ margin: 50 }} width={300} height={180} />
       <TextInput value={formData.textInputValue} onChangeText={handleInputChange} style={styles.input} />
       <Pressable onPress={handleGuess} style={styles.q_button}>
-        <Text style={{ color: "white", fontSize: 20 }}>CHECK</Text>
+        <Text style={{ color: "white", fontSize: 24, fontFamily: 'Inria Sans' }}>CHECK</Text>
       </Pressable>
       <Pressable onPress={handleHint} style={styles.q_button}>
-        <Text style={{ color: "white", fontSize: 20 }}>HINT</Text>
+        <Text style={{ color: "white", fontSize: 24, fontFamily: 'Inria Sans' }}>HINT</Text>
       </Pressable>
       <StatusBar style="auto" />
     </SafeAreaView>
@@ -254,5 +273,6 @@ const styles = StyleSheet.create({
     margin: 20,
     alignItems: "center",
     justifyContent: "center",
+
   },
 });
