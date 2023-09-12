@@ -6,6 +6,7 @@ import {
   View,
   TextInput,
   Pressable,
+  Keyboard,
 } from "react-native";
 import React, { useState, useCallback } from "react";
 import { useFonts } from "expo-font";
@@ -133,6 +134,7 @@ export default function App() {
     setHintText('');
     setIndex((prevIndex) => (prevIndex + 1) % countries.length);
     setHintIndex(0);
+    Keyboard.dismiss();
   }
 
   function handleHint() {
@@ -160,7 +162,7 @@ export default function App() {
 
     // Language Hint
     const languages = currentCountry.languages;
-    console.log(languages)
+
     let languageHint = `This country's official `;
 
     if (languages.length === 1) {
@@ -218,8 +220,11 @@ export default function App() {
       </View>
       <Text style={{ fontSize: 24, color: "white", fontFamily: 'Inria Sans', }}>WHAT COUNTRY IS THIS?</Text>
       <Flag style={{ margin: 50 }} width={300} height={180} />
-      <TextInput value={formData.textInputValue} onChangeText={handleInputChange} style={styles.input} />
-      <Pressable onPress={handleGuess} style={styles.q_button}>
+      <TextInput value={formData.textInputValue} onChangeText={handleInputChange} onSubmitEditing={handleGuess} style={styles.input} />
+      <Pressable 
+        onPress={handleGuess}
+        style={styles.q_button}
+      >
         <Text style={{ color: "white", fontSize: 24, fontFamily: 'Inria Sans' }}>CHECK</Text>
       </Pressable>
       <Pressable onPress={handleHint} style={styles.q_button}>
