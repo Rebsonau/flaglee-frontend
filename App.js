@@ -223,6 +223,7 @@ export default function App() {
       <Pressable onPress={handleHint} style={styles.q_button}>
         <Text style={{ color: "white", fontSize: 24, fontFamily: 'Inria Sans' }}>HINT</Text>
       </Pressable>
+      <Text style={{ color: "white", fontSize: 24, fontFamily: 'Inria Sans', textAlign: 'center', marginLeft: 30, marginRight: 30 }}>{hintText}</Text>
       <StatusBar style="auto" />
     </SafeAreaView>
   );
@@ -261,6 +262,10 @@ const styles = StyleSheet.create({
     backgroundColor: "#0E3A42",
     borderRadius: 8,
     margin: 20,
+    fontFamily: 'Inria Sans',
+    fontSize: 24,
+    color: "white",
+    paddingLeft: 20,
   },
   q_button: {
     backgroundColor: "#216370",
@@ -273,6 +278,5 @@ const styles = StyleSheet.create({
     margin: 20,
     alignItems: "center",
     justifyContent: "center",
-
   },
 });
