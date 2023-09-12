@@ -160,18 +160,19 @@ export default function App() {
 
     // Language Hint
     const languages = currentCountry.languages;
+    console.log(languages)
     let languageHint = `This country's official `;
 
     if (languages.length === 1) {
       languageHint += `language is ${languages[0]}.`;
     } else if (languages.length === 2) {
-      languageHint += `languages are ${languages[0] & languages[1]}.`;
+      languageHint += `languages are ${languages[0]} & ${languages[1]}.`;
     } else {
-      const lastLanguage = languages.pop();
-      languageHint += `languages are ${languages.join(
-        ", "
-      )} & ${lastLanguage}.`;
+      const allLanguages = [...languages];
+      const lastLanguage = allLanguages.pop();
+      languageHint += `languages are ${allLanguages.join(", ")} & ${lastLanguage}.`;
     }
+    
 
     // Currency Hint
     const currencyHint = `The currency used here is ${currentCountry.currency}.`;
@@ -187,8 +188,9 @@ export default function App() {
     } else if (borders.length === 2) {
       borderHint += `a border with & ${borders[0]} & ${borders[1]}.`;
     } else {
-      const lastBorder = currentCountry.bordering.pop();
-      borderHint += `a border with ${borders.join(", ")} & ${lastBorder}.`;
+      const allBorders = [...borders];
+      const lastBorder = allBorders.pop();
+      borderHint += `a border with ${allBorders.join(", ")} & ${lastBorder}.`;
     }
 
     // Randomly select a hint message
