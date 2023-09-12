@@ -14,6 +14,7 @@ import * as SplashScreen from "expo-splash-screen";
 import * as Haptics from "expo-haptics";
 
 import flags from "./components/flags";
+import Hints from "./components/hints/hints";
 
 const countries = [
   {
@@ -83,8 +84,6 @@ const countries = [
 export default function App() {
   const [index, setIndex] = useState(0);
   const [formData, setFormData] = useState({ textInputValue: '' });
-  const [hintIndex, setHintIndex] = useState(0);
-  const [hintText, setHintText] = useState('');
 
   // Custom Font
   const [fontsLoaded] = useFonts({
@@ -135,83 +134,8 @@ export default function App() {
 
   function handleCorrectAnswer() {
     setFormData({ textInputValue: '' }); // Clear the input
-    setHintText('');
     setIndex((prevIndex) => (prevIndex + 1) % countries.length);
-    setHintIndex(0);
     Keyboard.dismiss();
-  }
-
-  function handleHint() {
-    const currentCountry = countries[index];
-
-
-    // Capital City Hint
-    const capitalHint = `The capital city of this country is ${currentCountry.capital_city}.`;
-
-    // Continent Hint
-    const continent = currentCountry.continent;
-    let continentHint = `This country is located in `;
-
-    if (continent.length === 1) {
-      continentHint += `${continent[0]}.`;
-    } else {
-      continentHint += `${continent[0]} & ${continent[1]}.`;
-    }
-
-    // Poulation Hint
-    const populationHint = `The number of inhabitants in this country is approximately ${currentCountry.population.toLocaleString()}.`;
-
-    // Area Hint
-    const areaHint = `This country covers an area of approximately ${currentCountry.area.toLocaleString()} km².`;
-
-    // Language Hint
-    const languages = currentCountry.languages;
-
-    let languageHint = `This country's official `;
-
-    if (languages.length === 1) {
-      languageHint += `language is ${languages[0]}.`;
-    } else if (languages.length === 2) {
-      languageHint += `languages are ${languages[0]} & ${languages[1]}.`;
-    } else {
-      const allLanguages = [...languages];
-      const lastLanguage = allLanguages.pop();
-      languageHint += `languages are ${allLanguages.join(", ")} & ${lastLanguage}.`;
-    }
-    
-
-    // Currency Hint
-    const currencyHint = `The currency used here is ${currentCountry.currency}.`;
-
-    // Border Hint
-    const borders = currentCountry.bordering;
-    let borderHint = `This country shares `;
-
-    if (borders.length === 0) {
-      borderHint += `no borders.`;
-    } else if (borders.length === 1) {
-      borderHint += `a border with ${borders[0]}.`;
-    } else if (borders.length === 2) {
-      borderHint += `a border with & ${borders[0]} & ${borders[1]}.`;
-    } else {
-      const allBorders = [...borders];
-      const lastBorder = allBorders.pop();
-      borderHint += `a border with ${allBorders.join(", ")} & ${lastBorder}.`;
-    }
-
-    // Randomly select a hint message
-    const hintMessages = [
-      continentHint,
-      capitalHint,
-      languageHint,
-      borderHint,
-      populationHint,
-      areaHint,
-      currencyHint,
-    ];
-
-    setHintText(hintMessages[hintIndex]);
-    setHintIndex((prevIndex) => (prevIndex + 1) % hintMessages.length);
   }
 
   const Flag = countries[index].flag;
@@ -231,10 +155,7 @@ export default function App() {
       >
         <Text style={{ color: "white", fontSize: 24, fontFamily: 'Inria Sans' }}>CHECK</Text>
       </Pressable>
-      <Pressable onPress={handleHint} style={styles.q_button}>
-        <Text style={{ color: "white", fontSize: 24, fontFamily: 'Inria Sans' }}>HINT</Text>
-      </Pressable>
-      <Text style={{ color: "white", fontSize: 24, fontFamily: 'Inria Sans', textAlign: 'center', marginLeft: 30, marginRight: 30 }}>{hintText}</Text>
+      <Hints country={countries[index]}/>
       <StatusBar style="auto" />
     </SafeAreaView>
   );
