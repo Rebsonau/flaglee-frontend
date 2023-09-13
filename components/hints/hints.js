@@ -78,9 +78,9 @@ export default function Hints({ country }) {
       return (
         <View>
             <Pressable onPress={getHintMessage} style={styles.q_button}>
-                <Text style={{ color: "white", fontSize: 24, fontFamily: 'Inria Sans' }}>HINT</Text>
+                <Text style={{ color: "white", fontSize: 24, fontFamily: 'InriaSans_400Regular' }}>HINT</Text>
             </Pressable>
-            <Text style={{ color: "white", fontSize: 24, fontFamily: 'Inria Sans', textAlign: 'center', marginLeft: 30, marginRight: 30 }}>{hintText}</Text>
+            <Text style={{ color: "white", fontSize: 24, fontFamily: 'InriaSans_400Regular', textAlign: 'center', marginLeft: 30, marginRight: 30 }}>{hintText}</Text>
         </View>
       )
 }

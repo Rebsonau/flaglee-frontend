@@ -1,4 +1,7 @@
 import { StatusBar } from "expo-status-bar";
+import React, { useState, useCallback } from "react";
+import * as SplashScreen from "expo-splash-screen";
+import * as Haptics from "expo-haptics";
 import {
   SafeAreaView,
   StyleSheet,
@@ -8,10 +11,15 @@ import {
   Pressable,
   Keyboard,
 } from "react-native";
-import React, { useState, useCallback } from "react";
-import { useFonts } from "expo-font";
-import * as SplashScreen from "expo-splash-screen";
-import * as Haptics from "expo-haptics";
+import {
+  useFonts,
+  InriaSans_300Light,
+  InriaSans_300Light_Italic,
+  InriaSans_400Regular,
+  InriaSans_400Regular_Italic,
+  InriaSans_700Bold,
+  InriaSans_700Bold_Italic,
+} from '@expo-google-fonts/inria-sans';
 
 import flags from "./components/flags";
 import Hints from "./components/hints/hints";
@@ -86,15 +94,14 @@ export default function App() {
   const [formData, setFormData] = useState({ textInputValue: '' });
 
   // Custom Font
-  const [fontsLoaded] = useFonts({
-    'Inria Sans': require('./assets/fonts/Inria Sans.ttf'),
+  let [fontsLoaded] = useFonts({
+    InriaSans_300Light,
+    InriaSans_300Light_Italic,
+    InriaSans_400Regular,
+    InriaSans_400Regular_Italic,
+    InriaSans_700Bold,
+    InriaSans_700Bold_Italic,
   });
-
-  const onLayoutRootView = useCallback(async () => {
-    if (fontsLoaded) {
-      await SplashScreen.hideAsync();
-    }
-  }, [fontsLoaded]);
 
   if (!fontsLoaded) {
     return null;
@@ -146,14 +153,14 @@ export default function App() {
           <View style={styles.progress_highlight} />
         </View>
       </View>
-      <Text style={{ fontSize: 24, color: "white", fontFamily: 'Inria Sans', }}>WHAT COUNTRY IS THIS?</Text>
+      <Text style={{ fontSize: 24, color: "white", fontFamily: 'InriaSans_400Regular', }}>WHAT COUNTRY IS THIS?</Text>
       <Flag style={{ margin: 50 }} width={300} height={180} />
       <TextInput value={formData.textInputValue} onChangeText={handleInputChange} onSubmitEditing={handleGuess} style={styles.input} />
       <Pressable 
         onPress={handleGuess}
         style={styles.q_button}
       >
-        <Text style={{ color: "white", fontSize: 24, fontFamily: 'Inria Sans' }}>CHECK</Text>
+        <Text style={{ color: "white", fontSize: 24, fontFamily: 'InriaSans_400Regular' }}>CHECK</Text>
       </Pressable>
       <Hints country={countries[index]}/>
       <StatusBar style="auto" />
@@ -194,7 +201,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#0E3A42",
     borderRadius: 8,
     margin: 20,
-    fontFamily: 'Inria Sans',
+    fontFamily: 'InriaSans_400Regular',
     fontSize: 24,
     color: "white",
     paddingLeft: 20,
