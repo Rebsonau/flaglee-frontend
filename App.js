@@ -1,5 +1,5 @@
 import { StatusBar } from "expo-status-bar";
-import React, { useState, useCallback } from "react";
+import React, { useState } from "react";
 import * as SplashScreen from "expo-splash-screen";
 import * as Haptics from "expo-haptics";
 import {
@@ -10,6 +10,8 @@ import {
   TextInput,
   Pressable,
   Keyboard,
+  Platform,
+  StatusBar as StatusBarRN,
 } from "react-native";
 import {
   useFonts,
@@ -173,6 +175,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#10454f",
     alignItems: "center",
+    paddingTop: Platform.OS === "android" ? StatusBarRN.currentHeight : 0,
   },
   progress_container: {
     width: 250,
