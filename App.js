@@ -2,6 +2,7 @@ import { StatusBar } from "expo-status-bar";
 import React, { useState } from "react";
 import * as SplashScreen from "expo-splash-screen";
 import * as Haptics from "expo-haptics";
+import { Audio } from "expo-av";
 import {
   SafeAreaView,
   StyleSheet,
@@ -95,6 +96,28 @@ export default function App() {
   const [index, setIndex] = useState(0);
   const [formData, setFormData] = useState({ textInputValue: '' });
 
+  // Custom Sound
+  const [sound, setSound] = React.useState();
+
+  async function playSound() {
+    console.log('Loading Sound');
+    const { sound } = await Audio.Sound.createAsync( require('./assets/Correct.mp3')
+    );
+    setSound(sound);
+
+    console.log('Playing Sound');
+    await sound.playAsync();
+  }
+
+  React.useEffect(() => {
+    return sound
+      ? () => {
+          console.log('Unloading Sound');
+          sound.unloadAsync();
+        }
+      : undefined;
+  }, [sound]);
+
   // Custom Font
   let [fontsLoaded] = useFonts({
     InriaSans_300Light,
@@ -108,7 +131,6 @@ export default function App() {
   if (!fontsLoaded) {
     return null;
   }
-
 
   function handleInputChange(text) {
     setFormData({ ...formData, textInputValue: text });
@@ -133,6 +155,7 @@ export default function App() {
     if (isCorrect) {
       console.log('Correct!');
       handleCorrectAnswer();
+      playSound();
       Haptics.impactAsync(
         Haptics.ImpactFeedbackStyle.Heavy
       )
