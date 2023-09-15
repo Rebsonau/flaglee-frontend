@@ -2,7 +2,7 @@ import { StatusBar } from "expo-status-bar";
 import React, { useState } from "react";
 import * as SplashScreen from "expo-splash-screen";
 import * as Haptics from "expo-haptics";
-import { Audio } from "expo-av";
+import { Audio, playInSilentModeIos } from "expo-av";
 import {
   SafeAreaView,
   StyleSheet,
@@ -106,6 +106,9 @@ export default function App() {
     setSound(sound);
 
     console.log('Playing Sound');
+    await Audio.setAudioModeAsync({
+      playsInSilentModeIOS: true,
+    })
     await sound.playAsync();
   }
 
